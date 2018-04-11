@@ -17,12 +17,12 @@ $version = '/v1';
 $action = '/calls';
 
 //User and application information
-$application_id = "82328630-1bc1-49c2-851f-05455a56ce69";
+$application_id = "82328630-1bcdsds1-49c2-851f-054dd55a56ce69";//this is demo application id
 
 //Mint your JWT
 $keyfile="private.key";
 
-$jwt = generate_jwt('application_id', 'private.key'); 
+$jwt = generate_jwt($application_id, 'private.key'); 
 
 //Add the JWT to the request headers
 $headers =  array('Content-Type: application/json', "Authorization: Bearer " . $jwt ) ;
