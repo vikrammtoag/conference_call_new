@@ -1,6 +1,6 @@
 <?php
 //require_once __DIR__ . '/../config.php'; 
-require_once __DIR__ . '/../vendor/autoload.php';
+require_once __DIR__ . '/autoload.php';
 use Lcobucci\JWT\Builder;
 use Lcobucci\JWT\Signer\Key;
 use Lcobucci\JWT\Signer\Rsa\Sha256;
