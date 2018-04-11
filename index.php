@@ -22,7 +22,7 @@ $application_id = "82328630-1bc1-49c2-851f-05455a56ce69";
 //Mint your JWT
 $keyfile="private.key";
 
-$jwt = generate_jwt('82328630-1bc1-49c2-851f-05455a56ce69', 'private.key'); 
+$jwt = generate_jwt('application_id', 'private.key'); 
 
 //Add the JWT to the request headers
 $headers =  array('Content-Type: application/json', "Authorization: Bearer " . $jwt ) ;
