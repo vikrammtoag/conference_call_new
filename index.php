@@ -17,7 +17,7 @@ $version = '/v1';
 $action = '/calls';
 
 //User and application information
-$application_id = "82328630-1bcdsds1-49c2-851f-054dd55a56ce69";//this is demo application id
+$application_id = "82328630-1bcds-65ds1-89ff5-49c2-851f-054dd55ba56cer69";//this is demo application id
 
 //Mint your JWT
 $keyfile="private.key";
